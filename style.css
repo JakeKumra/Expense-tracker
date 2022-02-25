@@ -1,0 +1,131 @@
+body, html {
+    font-family: helvetica; 
+    font-size: 1rem;
+}
+
+/* Typography */
+
+h1,
+label {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+label {
+    font-weight: bold;
+}
+
+.subtitle {
+    color: lightseagreen;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1em 0;
+    font-weight: normal;
+}
+
+.empty-fields-msg {
+    display: none;
+    text-align: center;
+    color: red;
+    font-style: italic;
+    margin: 2em 0;
+}
+
+/* Layout */
+
+.container {
+    width: 70%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.date-amount-container,
+.name-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+
+.name-input,
+.date-input,
+.amount-input {
+    font-size: 1rem;
+}
+
+.date-input,
+.amount-input {
+    width: 40%;
+}
+
+.amount-input {
+    padding: 0.125em;
+}
+
+    .name-input {
+        width: 92%;
+    }
+
+/* Buttons */
+
+.add-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1.25em;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2%;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+.add-btn:hover,
+.add-btn:focus {
+    background-color: rgb(22, 121, 116);
+}
+
+.rem-btn { 
+    background-color: red;
+    border: none;
+    border-radius: 2%;
+    color: white;
+    margin: 0.25em;
+    padding: 0.2em 0.6em;
+    font-size: 0.8em;
+}
+
+.rem-btn:hover,
+.rem-btn:focus {
+    background-color: rgba(255, 0, 0, 0.502);
+    
+}
+
+/* Table */
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(0, 0, 0, 0.098);
+    border-collapse: collapse;
+    padding: 0.3em;
+    font-size: 1rem;
+}
+
+th {
+    background-color: rgba(119, 136, 153, 0.255);
+    padding: 0.5em; 
+}
